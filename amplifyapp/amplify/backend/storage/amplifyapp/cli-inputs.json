@@ -1,0 +1,10 @@
+{
+  "resourceName": "amplifyapp",
+  "tableName": "amplifyapp",
+  "partitionKey": {
+    "fieldName": "rating",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
