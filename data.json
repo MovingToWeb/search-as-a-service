@@ -1,0 +1,72 @@
+{
+  "id": {
+    "S": "12244"
+  },
+  "name": {
+    "S": "Shatabdi Express"
+  },
+  "url": {
+    "S": ""
+  },
+  "category": {
+    "S": "train"
+  },
+  "info": {
+    "S": "Coimbatore to Chennai"
+  }
+}
+
+{
+  "id": {
+    "S": "100007"
+  },
+  "name": {
+    "S": "Google pixel 6"
+  },
+  "url": {
+    "S": "https://www.amazon.in/dp/B09HJYV6TC/ref=cm_sw_r_apan_i_EB248GCFTMFZ6C7JQ6T4?_encoding=UTF8&psc=1"
+  },
+  "category": {
+    "S": "products"
+  },
+  "info": {
+    "S": "12GB RAM+256GB ROM"
+  }
+}
+
+
+{
+  "id": {
+    "S": "000001"
+  },
+  "name": {
+    "S": "Avengers: Endgame"
+  },
+  "url": {
+    "S": "https://www.rottentomatoes.com/m/avengers_endgame"
+  },
+  "category": {
+    "S": "movies"
+  },
+  "info": {
+    "S": "Exciting, entertaining, and emotionally impactful, Avengers: Endgame does whatever it takes to deliver a satisfying finale to Marvel's epic Infinity Saga"
+  }
+}
+
+{
+  "id": {
+    "S": "000002"
+  },
+  "name": {
+    "S": "Split"
+  },
+  "url": {
+    "S": "https://www.rottentomatoes.com/m/split_2017"
+  },
+  "category": {
+    "S": "movies"
+  },
+  "info": {
+    "S": "Split serves as a dramatic tour de force for James McAvoy in multiple roles -- and finds writer-director M. Night Shyamalan returning resoundingly to thrilling form"
+  }
+}
