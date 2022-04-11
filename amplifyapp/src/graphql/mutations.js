@@ -1,46 +1,49 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createMovies = /* GraphQL */ `
-  mutation CreateMovies(
-    $input: CreateMoviesInput!
-    $condition: ModelMoviesConditionInput
+export const createSearchService = /* GraphQL */ `
+  mutation CreateSearchService(
+    $input: CreateSearchServiceInput!
+    $condition: ModelSearchServiceConditionInput
   ) {
-    createMovies(input: $input, condition: $condition) {
-      movie_name
-      movie_url
-      movie_info
+    createSearchService(input: $input, condition: $condition) {
+      name
+      url
+      info
       id
+      category
       createdAt
       updatedAt
     }
   }
 `;
-export const updateMovies = /* GraphQL */ `
-  mutation UpdateMovies(
-    $input: UpdateMoviesInput!
-    $condition: ModelMoviesConditionInput
+export const updateSearchService = /* GraphQL */ `
+  mutation UpdateSearchService(
+    $input: UpdateSearchServiceInput!
+    $condition: ModelSearchServiceConditionInput
   ) {
-    updateMovies(input: $input, condition: $condition) {
-      movie_name
-      movie_url
-      movie_info
+    updateSearchService(input: $input, condition: $condition) {
+      name
+      url
+      info
       id
+      category
       createdAt
       updatedAt
     }
   }
 `;
-export const deleteMovies = /* GraphQL */ `
-  mutation DeleteMovies(
-    $input: DeleteMoviesInput!
-    $condition: ModelMoviesConditionInput
+export const deleteSearchService = /* GraphQL */ `
+  mutation DeleteSearchService(
+    $input: DeleteSearchServiceInput!
+    $condition: ModelSearchServiceConditionInput
   ) {
-    deleteMovies(input: $input, condition: $condition) {
-      movie_name
-      movie_url
-      movie_info
+    deleteSearchService(input: $input, condition: $condition) {
+      name
+      url
+      info
       id
+      category
       createdAt
       updatedAt
     }

@@ -2,8 +2,10 @@
 # all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
 input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
 
-type Movies @model {
-  movie_name: String
-  movie_url: String
-  movie_info: String
+type SearchService @model {
+  name: String
+  url: String
+  info: String
+  id: String
+  category: String
 }

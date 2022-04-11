@@ -8,7 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify'
  import awsconfig from './aws-exports'
 
+import Header from "./Header";
 import App from "./App";
+
 
 const httpLink = createHttpLink({
   uri: "https://enraaxgx5nahrephth5stm6jse.appsync-api.us-east-1.amazonaws.com/graphql"
@@ -26,15 +28,20 @@ const authLink = setContext((_, { headers }) => {
   }
 });
 
+
 const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache()
 });
 
 
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <ApolloProvider client={client}>
+    <Header/>
+    <br />
+    <br />
     <App />
   </ApolloProvider>,
   rootElement

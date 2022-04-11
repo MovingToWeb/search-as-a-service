@@ -1,30 +1,32 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getMovies = /* GraphQL */ `
-  query GetMovies($id: ID!) {
-    getMovies(id: $id) {
-      movie_name
-      movie_url
-      movie_info
+export const getSearchService = /* GraphQL */ `
+  query GetSearchService($id: ID!) {
+    getSearchService(id: $id) {
+      name
+      url
+      info
       id
+      category
       createdAt
       updatedAt
     }
   }
 `;
-export const listMovies = /* GraphQL */ `
-  query ListMovies(
-    $filter: ModelMoviesFilterInput
+export const listSearchServices = /* GraphQL */ `
+  query ListSearchServices(
+    $filter: ModelSearchServiceFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listMovies(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listSearchServices(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
-        movie_name
-        movie_url
-        movie_info
+        name
+        url
+        info
         id
+        category
         createdAt
         updatedAt
       }
